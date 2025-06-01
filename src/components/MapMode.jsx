@@ -19,10 +19,7 @@ const MapMode = ({ imageData, timeArrive }) => {
         </AnimatePresence>
       </div>
       <div className="p-4 bg-[#2F5597] text-white text-3xl text-center w-full">
-        <h3>
-          Приблизительное время прибытия бригады скорой помощи составляет{" "}
-          {timeArrive} минут
-        </h3>
+        <h3>{timeArrive}</h3>
       </div>
     </div>
   );

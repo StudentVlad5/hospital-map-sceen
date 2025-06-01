@@ -12,7 +12,7 @@ export const Header = ({ displayType, setDisplayType }) => {
         />
       </div>
       <button
-        className="bg-white text-[#2F5597] font-semibold px-6 py-2 rounded-md shadow hover:bg-gray-100 transition-colors duration-200"
+        className="bg-white text-[#2F5597] font-semibold px-6 py-2 rounded-md shadow hover:bg-gray-100 transition-colors duration-200 hidden"
         type="button"
         aria-label="switch display type"
         onClick={() => setDisplayType((prev) => !prev)}

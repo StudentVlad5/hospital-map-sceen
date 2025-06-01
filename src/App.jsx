@@ -6,6 +6,8 @@ import MapMode from "./components/MapMode";
 import mapImage from "./assets/forTests/map_test.jpg";
 import { Footer } from "./components/Footer";
 import dates from "./assets/constants/CONST.json";
+import "./App.css";
+
 
 const App = () => {
   const [mode, setMode] = useState("map");
@@ -48,7 +50,7 @@ const App = () => {
   }, [displayType]);
 
   return (
-    <div className="max-w-[1920px] h-full overflow-hidden text-white relative flex flex-col w-[100%] p-[15px] mx-[0] my-[auto] text-base">
+    <div className="max-w-[1920px] h-full overflow-hidden text-white relative flex flex-col w-[100%] p-[15px] mx-[0] my-[auto] text-base justify-center">
       <Header displayType={displayType} setDisplayType={setDisplayType} />
       {mode === "map" ? (
         <MapMode
