@@ -31,8 +31,8 @@ export const Header = ({ displayType, setDisplayType }) => {
       </div>
       <div className="relative flex flex-col overflow-hidden w-[300px] h-[100%] items-center justify-end gap-[10px]">
         <h3 className="font-bold">Сервис центр</h3>
-        <a className="font-bold hover:point" href="tel:+87711279090">
-          8771 127 90 90
+        <a className="font-bold hover:point" href="tel:+87717279090">
+          8771 727 90 90
         </a>
       </div>
     </header>
