@@ -3,7 +3,7 @@ import LogoMedCenter from "../assets/images/logo-transparent-white-edited-2048x1
 
 export const Header = ({ displayType, setDisplayType }) => {
   return (
-    <header className="flex f-row p-[15px] items-center justify-between gap-[10px] w-[100%] h-[100px] p-[17px] bg-[#2F5597] text-2xl">
+    <header className="flex f-row p-[15px] items-center justify-between gap-[10px] w-[100%] h-[105px] p-[17px] bg-[#2F5597] text-2xl">
       <div className="relative inline overflow-hidden w-[167px] h-[100%]">
         <img
           src={LogoMedCenter}
@@ -33,7 +33,7 @@ export const Header = ({ displayType, setDisplayType }) => {
       <div className="relative flex flex-col overflow-hidden w-[300px] h-[100%] items-center justify-end gap-[10px]">
         <h3 className="font-bold">Сервис центр</h3>
         <a className="font-bold hover:point" href="tel:+77717279090">
-          7 771 727 9090
+          +7 771 727 9090
         </a>
       </div>
     </header>
