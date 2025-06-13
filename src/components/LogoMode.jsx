@@ -1,5 +1,5 @@
 import QRCode from "react-qr-code";
-import logo from "../assets/images/logo512.png";
+import logo from "../assets/images/logo-transparent-white-edited-2048x1280.png";
 import data from "../assets/constants/CONST.json";
 import { useState } from "react";
 

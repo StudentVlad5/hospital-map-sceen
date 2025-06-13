@@ -1,5 +1,5 @@
 import Logo from "../assets/images/logo512.png";
-import LogoMedCenter from "../assets/images/logo.jpg";
+import LogoMedCenter from "../assets/images/logo-transparent-white-edited-2048x1280.png";
 
 export const Header = ({ displayType, setDisplayType }) => {
   return (
@@ -9,6 +9,7 @@ export const Header = ({ displayType, setDisplayType }) => {
           src={LogoMedCenter}
           alt="Логотип"
           className="absolute w-[100%] h-[100%] object-contain"
+          loading="lazy"
         />
       </div>
       <button
@@ -31,8 +32,8 @@ export const Header = ({ displayType, setDisplayType }) => {
       </div>
       <div className="relative flex flex-col overflow-hidden w-[300px] h-[100%] items-center justify-end gap-[10px]">
         <h3 className="font-bold">Сервис центр</h3>
-        <a className="font-bold hover:point" href="tel:+87717279090">
-          8771 727 90 90
+        <a className="font-bold hover:point" href="tel:+77717279090">
+          7 771 727 9090
         </a>
       </div>
     </header>

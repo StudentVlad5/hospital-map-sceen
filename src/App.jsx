@@ -10,7 +10,7 @@ import "./App.css";
 
 
 const App = () => {
-  const [mode, setMode] = useState("map");
+  const [mode, setMode] = useState("logo");
   const [imageVersion, setImageVersion] = useState(null);
   const [imageData, setImageData] = useState(null);
   const [successfulData, setLastSuccessfulData] = useState(true);
