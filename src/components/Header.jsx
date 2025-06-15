@@ -3,7 +3,7 @@ import LogoMedCenter from "../assets/images/logo-transparent-white-edited-2048x1
 
 export const Header = ({ displayType, setDisplayType }) => {
   return (
-    <header className="flex f-row p-[15px] items-center justify-between gap-[10px] w-[100%] h-[105px] p-[17px] bg-[#2F5597] text-2xl">
+    <header className="relative flex f-row p-[15px] items-center justify-between gap-[10px] w-[100%] h-[105px] p-[17px] bg-[#2F5597] text-2xl">
       <div className="relative inline overflow-hidden w-[167px] h-[100%]">
         <img
           src={LogoMedCenter}
@@ -20,7 +20,7 @@ export const Header = ({ displayType, setDisplayType }) => {
       >
         {displayType ? "монитор 1" : "монитор 2"}
       </button>
-      <div className="flex flex-row gap-[20px] w-[400px] h-[100%] items-center justify-center">
+      <div className="flex flex-row gap-[20px] w-[400px] h-[100%] items-center justify-center absolute left-[47%] transform -translate-x-1/2">
         <div className="relative flex overflow-hidden w-[300px] h-[100%] items-center justify-end gap-[10px]">
           <img
             src={Logo}
