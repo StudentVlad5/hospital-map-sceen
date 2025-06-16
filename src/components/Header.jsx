@@ -20,7 +20,7 @@ export const Header = ({ displayType, setDisplayType }) => {
       >
         {displayType ? "монитор 1" : "монитор 2"}
       </button>
-      <div className="flex flex-row gap-[20px] w-[400px] h-[100%] items-center justify-center absolute left-[47%] transform -translate-x-1/2">
+      <div className="flex flex-row gap-[20px] w-[400px] h-[100%] items-center justify-center absolute left-[50%] transform -translate-x-1/2">
         <div className="relative flex overflow-hidden w-[300px] h-[100%] items-center justify-end gap-[10px]">
           <img
             src={Logo}
