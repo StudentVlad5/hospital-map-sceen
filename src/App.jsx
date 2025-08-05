@@ -8,7 +8,6 @@ import { Footer } from "./components/Footer";
 import dates from "./assets/constants/CONST.json";
 import "./App.css";
 
-
 const App = () => {
   const [mode, setMode] = useState("logo");
   const [imageVersion, setImageVersion] = useState(null);
@@ -24,6 +23,7 @@ const App = () => {
         ? (res = await axios.get(dates.FETCH_URL_fghdjs))
         : (res = await axios.get(dates.FETCH_URL_eksvjs));
       const data = res.data;
+      data ? setLastSuccessfulData(true) : setLastSuccessfulData(false);
 
       if (data.mode === "map") {
         setMode("map");
@@ -31,8 +31,6 @@ const App = () => {
           setImageVersion(data.imageVersion);
           setImageData(data.imageName);
           settimeArrive(data.timeArrive);
-
-          if (!successfulData) setLastSuccessfulData(true);
         }
       } else if (data.mode === "logo") {
         setMode("logo");
