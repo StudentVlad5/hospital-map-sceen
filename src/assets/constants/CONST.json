@@ -4,7 +4,7 @@
   "email": "info@medsystem.online",
   "address": "г. Астана, Мангилик Ел, 55/16,блок С3.5",
   "POLLING_INTERVAL": "10000",
-  "FETCH_URL_fghdjs": "http://185.116.194.159:34364/getstatus",
-  "FETCH_URL_eksvjs": "http://185.116.194.159:34364/getstatus",
-  "FETCH_URL_image": "http://185.116.194.159:34364/download/"
+  "FETCH_URL_fghdjs": "https://screen.medsystem.online/getstatus",
+  "FETCH_URL_eksvjs": "https://screen.medsystem.online/getstatus",
+  "FETCH_URL_image": "https://screen.medsystem.online/download/"
 }
